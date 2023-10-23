@@ -1,0 +1,60 @@
+body{
+    background-color: #212121;
+    color: #14FFEC;
+    font-size: 2.5vmin;
+}
+.nav {
+    background-color: #323232;
+    display: flex;
+    justify-content: space-between;
+    align-items:end;
+}
+
+.simon-game {
+    color: #0D7377;
+    margin: 0 0 0 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.brand {
+    color: #0D7377;
+    margin: 0 10px 0  0;
+    font-family: 'Righteous', sans-serif;
+    font-size: 3vmin;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; 
+    height: 90vh;
+}
+
+.level {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template: repeat(2, 30vh) / repeat(2, 30vh);
+    column-gap: 100px;
+    row-gap: 50px;
+}
+
+.clickables {
+    border-radius: 2vh;
+}
+
+.a{
+    background-color: #00ABB3;
+}
+.b{
+    background-color: #3C4048;
+}
+.c{
+    background-color: #B2B2B2;
+}
+.d{
+    background-color: #EAEAEA;
+}
